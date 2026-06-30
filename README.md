@@ -1,39 +1,51 @@
-Face Recognition System using PCA and Artificial Neural Network
-Project Overview
+# 👤 Face Recognition System using PCA & ANN
 
-This project is a Face Recognition System developed using Python. It recognizes enrolled users using Principal Component Analysis (PCA) for feature extraction and an Artificial Neural Network (ANN) for classification. The system also detects unknown faces and displays "Not Enrolled Person".
+A Face Recognition System developed using **Python**, **OpenCV**, **Principal Component Analysis (PCA)**, and **Artificial Neural Networks (ANN)**. The system identifies enrolled users by extracting facial features using PCA and classifying them with an ANN model. If an unknown face is detected, it displays **"Not Enrolled Person"**.
 
-Features
-Face image preprocessing
-PCA for dimensionality reduction
-ANN for face classification
-Recognition of enrolled users
-Unknown person detection
-Accuracy vs K graph
-Technologies Used
-Python
-OpenCV
-NumPy
-Scikit-learn
-Matplotlib
-Dataset
+## 🚀 Features
+- Face image preprocessing
+- Face recognition using PCA & ANN
+- Unknown person detection
+- Automatic prediction of enrolled users
+- Accuracy evaluation
+- Accuracy vs. K graph visualization
 
-The dataset contains face images of:
+## 🛠️ Technologies Used
+- Python
+- OpenCV
+- NumPy
+- Scikit-learn
+- Matplotlib
 
-Aamir
-Ajay
-Akshay
-Alia
-Amitabh
-Deepika
-Disha
-Farhan
-Ileana
-Unknown
-Output
-Recognizes enrolled persons
-Displays "Not Enrolled Person" for unknown faces
-Shows model accuracy and PCA performance
-Author
+## 📂 Dataset
+The dataset contains face images of multiple individuals, including:
+- Aamir
+- Ajay
+- Akshay
+- Alia
+- Amitabh
+- Deepika
+- Disha
+- Farhan
+- Ileana
+- Unknown
 
-Rakshitha V R
+## ▶️ How to Run
+1. Clone this repository.
+2. Install the required libraries.
+3. Place the face images inside the `faces` folder.
+4. Run `face_recognition.py`.
+5. View the recognition results.
+
+## 📊 Output
+- Recognizes enrolled persons
+- Detects unknown faces
+- Displays prediction accuracy
+- Generates Accuracy vs. K graph
+
+
+## 👩‍💻 Author
+
+**Rakshitha V R**
+
+⭐ If you found this project useful, consider giving it a star!
