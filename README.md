@@ -2,13 +2,6 @@
 
 A Face Recognition System developed using **Python**, **OpenCV**, **Principal Component Analysis (PCA)**, and **Artificial Neural Networks (ANN)**. The system identifies enrolled users by extracting facial features using PCA and classifying them with an ANN model. If an unknown face is detected, it displays **"Not Enrolled Person"**.
 
- 
-
-https://github.com/user-attachments/assets/cdf17377-0851-441d-9411-17e52cbada61
-
-
-
-
 ## 🚀 Features
 - Face image preprocessing
 - Face recognition using PCA & ANN
@@ -16,6 +9,10 @@ https://github.com/user-attachments/assets/cdf17377-0851-441d-9411-17e52cbada61
 - Automatic prediction of enrolled users
 - Accuracy evaluation
 - Accuracy vs. K graph visualization
+
+
+https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
+
 
 ## 🛠️ Technologies Used
 - Python
