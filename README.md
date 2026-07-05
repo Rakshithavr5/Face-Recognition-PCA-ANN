@@ -72,24 +72,6 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
     ├── requirements.txt
     └── README.md
 
-##  Installation & Setup
-
-### 1. Clone the Repository
-
-    git clone YOUR_REPOSITORY_URL
-
-### 2. Navigate to the Project Folder
-
-    cd Face-Recognition-PCA-ANN
-
-### 3. Install Required Libraries
-
-    pip install opencv-python numpy scikit-learn matplotlib
-
-### 4. Run the Project
-
-    python face_recognition.py
-
 
 ##  Author
 
