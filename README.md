@@ -52,23 +52,6 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 - **Training Samples:** 276
 - **Testing Samples:** 184
 
-##  Model Performance
-
-The system evaluates recognition accuracy using different K values and compares their performance.
-
-| K Value | Accuracy |
-|--------:|---------:|
-| 5 | 25.54% |
-| 10 | 38.04% |
-| 15 | 40.22% |
-| 20 | **45.11%** |
-| 25 | 43.48% |
-| 30 | 39.13% |
-
-**Best Accuracy:** 45.11% at **K = 20**
-
-The project also generates an **Accuracy vs. K graph** using Matplotlib to visualize model performance.
-
 ## Project Structure
 
     Face-Recognition-PCA-ANN/
@@ -107,28 +90,6 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
 
     python face_recognition.py
 
-##  Sample Output
-
-    Total Images Loaded: 460
-    Original Shape: (460, 10000)
-    PCA Shape: (460, 20)
-
-    Number of Classes: 10
-    Training Samples: 276
-    Testing Samples: 184
-
-    Best Accuracy: 45.11%
-    Predicted Person: Deepika
-    Confidence: 1.0
-
-## Applications
-
-- Face-based authentication
-- Student attendance systems
-- Employee identification
-- Security and access control
-- Identity verification
-- Smart surveillance systems
 
 ##  Author
 
