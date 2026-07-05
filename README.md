@@ -1,8 +1,8 @@
-# 👤 Face Recognition System using PCA & ANN
+#  Face Recognition System using PCA & ANN
 
 A Face Recognition System developed using **Python**, **OpenCV**, **Principal Component Analysis (PCA)**, and **Artificial Neural Networks (ANN)**. The system identifies enrolled users by extracting facial features using PCA and classifying them with an ANN model. If an unknown face is detected, it displays **"Not Enrolled Person"**.
 
-## 🚀 Features
+##  Features
 - Face image preprocessing
 - Face recognition using PCA & ANN
 - Unknown person detection
@@ -13,7 +13,7 @@ A Face Recognition System developed using **Python**, **OpenCV**, **Principal Co
 
 https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python** – Core programming language
 - **OpenCV** – Image processing and preprocessing
@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 - **PCA** – Feature extraction and dimensionality reduction
 - **ANN** – Face classification and recognition
 
-## 🧠 How It Works
+##  How It Works
 
 1. **Dataset Loading**  
    Loads facial images of different individuals from organized dataset folders.
@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 6. **Unknown Person Detection**  
    If the face does not match an enrolled identity, the system displays **"Not Enrolled Person"**.
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 - **Total Images:** 460
 - **Number of Classes:** 10
@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 - **Training Samples:** 276
 - **Testing Samples:** 184
 
-## 📈 Model Performance
+##  Model Performance
 
 The system evaluates recognition accuracy using different K values and compares their performance.
 
@@ -69,7 +69,7 @@ The system evaluates recognition accuracy using different K values and compares 
 
 The project also generates an **Accuracy vs. K graph** using Matplotlib to visualize model performance.
 
-## 📁 Project Structure
+## Project Structure
 
     Face-Recognition-PCA-ANN/
     │
@@ -89,7 +89,7 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
     ├── requirements.txt
     └── README.md
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -107,7 +107,7 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
 
     python face_recognition.py
 
-## 🧪 Sample Output
+##  Sample Output
 
     Total Images Loaded: 460
     Original Shape: (460, 10000)
@@ -121,7 +121,7 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
     Predicted Person: Deepika
     Confidence: 1.0
 
-## 🎯 Applications
+## Applications
 
 - Face-based authentication
 - Student attendance systems
@@ -130,7 +130,7 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
 - Identity verification
 - Smart surveillance systems
 
-## 👩‍💻 Author
+##  Author
 
 **Rakshitha V R**  
 B.Tech Information Technology Student
