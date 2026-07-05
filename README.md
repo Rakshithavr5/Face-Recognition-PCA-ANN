@@ -130,15 +130,6 @@ The project also generates an **Accuracy vs. K graph** using Matplotlib to visua
 - Identity verification
 - Smart surveillance systems
 
-## 🔮 Future Improvements
-
-- Real-time face recognition using webcam
-- Improve accuracy with a larger dataset
-- Add automatic face detection
-- Develop a graphical user interface
-- Integrate CNN-based deep learning models
-- Deploy as a web application
-
 ## 👩‍💻 Author
 
 **Rakshitha V R**  
