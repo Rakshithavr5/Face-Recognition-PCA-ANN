@@ -71,7 +71,15 @@ https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
     ├── face_recognition.py
     ├── requirements.txt
     └── README.md
+    
+## Future Improvements
 
+- Real-time face recognition using webcam
+- Improve accuracy with a larger dataset
+- Add automatic face detection
+- Develop a graphical user interface
+- Integrate CNN-based deep learning models
+- Deploy as a web application
 
 ##  Author
 
