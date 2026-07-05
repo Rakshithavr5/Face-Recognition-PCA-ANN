@@ -13,43 +13,133 @@ A Face Recognition System developed using **Python**, **OpenCV**, **Principal Co
 
 https://github.com/user-attachments/assets/e334f13f-f579-418b-8d99-492d17a347a9
 
-
 ## 🛠️ Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Scikit-learn
-- Matplotlib
 
-## 📂 Dataset
-The dataset contains face images of multiple individuals, including:
-- Aamir
-- Ajay
-- Akshay
-- Alia
-- Amitabh
-- Deepika
-- Disha
-- Farhan
-- Ileana
-- Unknown
+- **Python** – Core programming language
+- **OpenCV** – Image processing and preprocessing
+- **NumPy** – Numerical and array operations
+- **Scikit-learn** – PCA and machine learning utilities
+- **Matplotlib** – Performance graph visualization
+- **PCA** – Feature extraction and dimensionality reduction
+- **ANN** – Face classification and recognition
 
-## ▶️ How to Run
-1. Clone this repository.
-2. Install the required libraries.
-3. Place the face images inside the `faces` folder.
-4. Run `face_recognition.py`.
-5. View the recognition results.
+## 🧠 How It Works
 
-## 📊 Output
-- Recognizes enrolled persons
-- Detects unknown faces
-- Displays prediction accuracy
-- Generates Accuracy vs. K graph
+1. **Dataset Loading**  
+   Loads facial images of different individuals from organized dataset folders.
 
+2. **Image Preprocessing**  
+   Converts images to grayscale, resizes them to a fixed size, and transforms them into numerical arrays.
+
+3. **Feature Extraction using PCA**  
+   Reduces high-dimensional facial image data while preserving the most important facial characteristics.
+
+4. **Model Training**  
+   Uses the extracted facial features to train the recognition model for identity classification.
+
+5. **Face Prediction**  
+   Processes a new face image and predicts the identity of the person.
+
+6. **Unknown Person Detection**  
+   If the face does not match an enrolled identity, the system displays **"Not Enrolled Person"**.
+
+## 📊 Dataset Summary
+
+- **Total Images:** 460
+- **Number of Classes:** 10
+- **Original Feature Shape:** `(460, 10000)`
+- **PCA Feature Shape:** `(460, 20)`
+- **Training Samples:** 276
+- **Testing Samples:** 184
+
+## 📈 Model Performance
+
+The system evaluates recognition accuracy using different K values and compares their performance.
+
+| K Value | Accuracy |
+|--------:|---------:|
+| 5 | 25.54% |
+| 10 | 38.04% |
+| 15 | 40.22% |
+| 20 | **45.11%** |
+| 25 | 43.48% |
+| 30 | 39.13% |
+
+**Best Accuracy:** 45.11% at **K = 20**
+
+The project also generates an **Accuracy vs. K graph** using Matplotlib to visualize model performance.
+
+## 📁 Project Structure
+
+    Face-Recognition-PCA-ANN/
+    │
+    ├── faces/
+    │   ├── Aamir/
+    │   ├── Ajay/
+    │   ├── Akshay/
+    │   ├── Alia/
+    │   ├── Amitabh/
+    │   ├── Deepika/
+    │   ├── Disha/
+    │   ├── Farhan/
+    │   ├── Ileana/
+    │   └── Unknown/
+    │
+    ├── face_recognition.py
+    ├── requirements.txt
+    └── README.md
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+    git clone YOUR_REPOSITORY_URL
+
+### 2. Navigate to the Project Folder
+
+    cd Face-Recognition-PCA-ANN
+
+### 3. Install Required Libraries
+
+    pip install opencv-python numpy scikit-learn matplotlib
+
+### 4. Run the Project
+
+    python face_recognition.py
+
+## 🧪 Sample Output
+
+    Total Images Loaded: 460
+    Original Shape: (460, 10000)
+    PCA Shape: (460, 20)
+
+    Number of Classes: 10
+    Training Samples: 276
+    Testing Samples: 184
+
+    Best Accuracy: 45.11%
+    Predicted Person: Deepika
+    Confidence: 1.0
+
+## 🎯 Applications
+
+- Face-based authentication
+- Student attendance systems
+- Employee identification
+- Security and access control
+- Identity verification
+- Smart surveillance systems
+
+## 🔮 Future Improvements
+
+- Real-time face recognition using webcam
+- Improve accuracy with a larger dataset
+- Add automatic face detection
+- Develop a graphical user interface
+- Integrate CNN-based deep learning models
+- Deploy as a web application
 
 ## 👩‍💻 Author
 
-**Rakshitha V R**
-
-⭐ If you found this project useful, consider giving it a star!
+**Rakshitha V R**  
+B.Tech Information Technology Student
